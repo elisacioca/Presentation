@@ -1,0 +1,143 @@
+body{
+    padding: 1% 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    background-color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.all{
+    min-height: 700px;
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 25px;
+    color: #333333;
+}
+
+.menu >div{
+    padding: 1% 2%;
+    font-weight: 550;
+}
+
+.content-body{
+    background-color: #E6D2FC;
+    padding: 1% 2%;
+    min-height: 600px;
+}
+
+.content-title{
+    font-size: 15px;
+    color: #A158C2;
+}
+
+.image-div{
+    max-width: 500px;
+    height: auto;
+    float: right;
+}
+
+#image {
+    width: 100%;
+    height: auto; 
+}
+
+.wrap{
+    padding: 0px 30px 30px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.team{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo img{
+    height:auto;
+    width:auto;
+    max-height: 125px;
+    max-width: 200px;
+}
+
+img{
+    margin: 15px 30px 5px 30px;
+    border-radius: 30px;
+}
+
+
+
+.photo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.name{
+    margin:0;
+    padding:0;
+    font-size: 15px;
+    color: #935BD1;
+}
+
+.photos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.photos-rows{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.first-row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 25px 0 0 0;
+}
+
+p, a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Title{
+    padding: 30px 0 0 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.team > a{
+    margin:0;
+    padding: 0;
+    font-size: 15px;
+    color: #666666;
+}
+.contact{
+    font-size:12px;
+    color:white;
+    margin:0;
+    padding:0;
+}
